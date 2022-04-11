@@ -1,0 +1,74 @@
+[
+    {
+        "id":1,
+        "name":"COX'S BAZAR 3* HOTEL (PICK)",
+        "price":7500,
+        "image":"https://i.ibb.co/PzRGyLZ/214.jpg"
+    },
+    {
+        "id":2,
+        "name":"COX'S BAZAR 3* HOTEL (SUPER PICK)",
+        "price":11500,
+        "image":"https://i.ibb.co/3FvffZX/213.jpg"
+    },
+    {
+        "id":3,
+        "name":"COX'S BAZAR 3* HOTEL (PICK)",
+        "price":5500,
+        "image":"https://i.ibb.co/YTjZ2ZR/219.jpg"
+    },
+    {
+        "id":4,
+        "name":"COX'S BAZAR 3* HOTEL (PICK)",
+        "price":2500,
+        "image":"https://i.ibb.co/qFpYWKN/227.jpg"
+    },
+    {
+        "id":5,
+        "name":"SAINTMARTIN LUXURIOUS (S-PICK)",
+        "price":7500,
+        "image":"https://i.ibb.co/d45DT4B/228.jpg"
+    },
+
+    {
+        "id":6,
+        "name":"SAINTMARTIN LUXURIOUS (S-PICK)",
+        "price":7500,
+        "image":"https://i.ibb.co/wWyhVRN/229.jpg"
+    },
+
+    {
+        "id":7,
+        "name":"SAINTMARTIN LUXURIOUS (S-PICK)",
+        "price":7500,
+        "image":"https://i.ibb.co/bQnGX8F/230.jpg"
+    },
+    {
+        "id":8,
+        "name":"SYLHET HOTEL RESERVATION",
+        "price":7500,
+        "image":"https://i.ibb.co/Hpyctng/247.jpg"
+    },
+    {
+        "id":9,
+        "name":"SAINTMARTIN LUXURIOUS (S-PICK)",
+        "price":7500,
+        "image":"https://i.ibb.co/Wg40P0Q/258.jpg"
+    },
+    {
+        "id":10,
+        "name":"SAINTMARTIN LUXURIOUS (S-PICK)",
+        "price":7500,
+        "image":"https://i.ibb.co/YXswvP1/279.jpg"
+    }
+]
+
+
+
+
+
+
+
+
+
+

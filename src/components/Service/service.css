@@ -1,0 +1,22 @@
+
+.single-service {
+    background: #f5f5f5;
+    box-shadow: 3px 3px 3px 0px rgb(225, 213, 159);
+}
+.single-service img{
+    width: 100%;
+}
+.single-service button {
+    padding: 10px;
+    font-size: 18px;
+    background: goldenrod;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: all .4s ease;
+    color: #f5f5f5;
+    font-weight: 600;
+}
+.single-service button:hover{
+    background-color: rgb(15, 170, 194);
+}
