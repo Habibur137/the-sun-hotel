@@ -2,9 +2,18 @@ import React from "react";
 import "./login.css";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const [signInWithGoogle, user] = useSignInWithGoogle(auth);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const from = location?.state?.from?.pathname || "/";
+  const handleSignInWithGoogle = () => {
+    signInWithGoogle().then(() => {
+      navigate(from, { repalce: true });
+    });
+  };
   console.log(user);
   return (
     <div className="form-container">
@@ -14,7 +23,7 @@ const Login = () => {
         <input type="password" placeholder="Your Password" />
         <input type="submit" value="Login" />
       </form>
-      <button onClick={() => signInWithGoogle()}>Google Sign In</button>
+      <button onClick={handleSignInWithGoogle}>Google Sign In</button>
     </div>
   );
 };
